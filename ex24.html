@@ -5,20 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iframe</title>
+    <style> /*No caso das iframe, as CSS são soberanas*/
+        iframe{
+            width: 500px;
+            height: 500px;
+            border:1px solid black;
+            text-align: center;
+            display: block;
+        }
+
+
+    </style>
 </head>
 
 <body>
+
     <h1>Testando o uso de um iframe</h1>
+    <!--Tamanho padrão é de 300x150.
+    frameborder==> 0 sem borda, 1 com borda.
+    scolling==> barra de rolagem. OBS: Tem navegador que não aceita o no(Não rolagem.)
+    -->
+
     <p>Acessando o  
 
-        <iframe src="https://portaldaobmep.impa.br/index.php/site/index" frameborder="0">
+        <iframe src="https://portaldaobmep.impa.br/index.php/site/index" frameborder="0" height="500" scolling="yes">
+            <a href="https://portaldaobmep.impa.br/index.php/site/index" target="_blank"> Portal da Obmep</a>
 
         </iframe>      
         para aprender matemática.</p>
 
-        O site <iframe src="https://www.google.com/" frameborder="0"></iframe> não permite ser usado por iframe.
-
-
-    
+        O meu repositorio  <iframe src="http://gustavoguanabara.github.io/" frameborder="0" height="500" width="500">
+            <a href="http://gustavoguanabara.github.io/" target="_blank"> GitHub</a>
+        </iframe> é muito legal.
+  
 </body>
 </html>
