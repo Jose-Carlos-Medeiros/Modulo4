@@ -6,14 +6,15 @@
     <title>Formulário</title>
 </head>
 <body>
-    <h1>Teste formulários</h1>
+    <h1>Exemplo formulários</h1>
 
     <form action="cadastro.php" method="get" autocomplete="on">
 
         <p>
             <label for="iano">Em que ano você nasceu?</label>
-            <input type="number" name="ano" id="iano" min="1900" max="2020" oninput="calcIdade()">
+            <input type="number" name="ano" id="iano" min="1900" max="2020" oninput="calcIdade">
         </p>
+
 
         <p>
             <label for="idade">Sua Idade é:</label>
@@ -33,8 +34,10 @@
     <script>
         function calcIdade() {
 
-            let atual= new Date().getFullYear() iidade.innerHTML=Number(atual)-Number(iano.value)
+            let atual= new Date().getFullYear() 
+            iidade.innerHTML=Number(atual)-Number(iano.value)
         }
     </script>
+    
 </body>
 </html>
