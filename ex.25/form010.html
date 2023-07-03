@@ -7,13 +7,14 @@
 </head>
 
 <body>
-    <h1>Exemplo formulários</h1>
+    <h1>Exemplo de formulário</h1>
 
     <form action="cadastro.php" method="get" autocomplete="on">
 
+
         <p>
-            <label for="iano">Em que ano você nasceu?</label>
-            <input type="number" name="ano" id="iano" min="1900" max="2020" oninput="calcIdade">
+            <label for="iano"> Em que ano você nasceu? </label>
+            <input type="number" name="ano" id="iano" min="1900" max="2020" oninput="calcIdade()">
         </p>
 
 
@@ -23,7 +24,6 @@
         </p>
 
         
-
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
