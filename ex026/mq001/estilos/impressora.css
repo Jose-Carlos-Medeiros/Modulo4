@@ -5,7 +5,6 @@
 *{
     margin: 10px;
     padding: 10px;
-
 }
 
 html{
@@ -23,5 +22,5 @@ article{
 }
 
 article::after{
-    content: 'Esse artigo foi impresso através do site www.curso em video.com' ;
+    content: 'Esse artigo foi impresso através do site www.curso em video.com';
 }
