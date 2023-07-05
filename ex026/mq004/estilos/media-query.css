@@ -17,7 +17,7 @@ TV:Acima de 1200px
 
 }
 
-@media sreen and (min-width:768px) and (max-width:992px){ /*Tablet*/
+@media screen and (min-width:768px) and (max-width:992px){ /*Tablet*/
 
     body{
         background-image: url(../imagens/back-tablet.jpg);
