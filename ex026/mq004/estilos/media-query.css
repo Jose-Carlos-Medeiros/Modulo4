@@ -14,6 +14,24 @@ TV:Acima de 1200px
 */
 
 @media print { /*Impressão*/
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body{
+        background-image: url(../imagens/back-print.jpg); /*Desnecessário*/
+    }
+
+    main{
+        border: 2px solid black;
+    }
+
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+
+    
 
 }
 
@@ -37,7 +55,7 @@ TV:Acima de 1200px
     body{
         background-image: url(../imagens/back-pc.jpg);
     }
-        
+        img#phone{display: none;}
         img#tablet{display: none;}
         img#print{display: none;}
         img#desktop{display: block;}
@@ -50,6 +68,12 @@ TV:Acima de 1200px
     body{
         background-image: url(../imagens/back-tv.jpg);
     }
+
+    main{
+        width: 700px;
+    }
+
+    
     img#phone{display: none;}
     img#tablet{display: none;}
     img#print{display: none;}
