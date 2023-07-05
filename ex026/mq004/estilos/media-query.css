@@ -23,6 +23,12 @@ TV:Acima de 1200px
         background-image: url(../imagens/back-tablet.jpg);
     }
 
+    img#phone{display: none;}
+img#tablet{display: block;}
+img#print{display: none;}
+img#desktop{display: none;}
+img#tv{display: none;}
+
 }
 
 
