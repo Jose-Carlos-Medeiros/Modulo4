@@ -23,10 +23,10 @@ TV:Acima de 1200px
     }
 
     menu > ul > li {
-        display: inline-block;       
+        display: inline-block;  /*Coloca os botões do menu um do lado do outro*/     
     }
 
     main{
-        width: 768px;
+        width: 768px; /*Mantem a largura da main fixa em 768px para ler em telas grandes*/
     }
 }
