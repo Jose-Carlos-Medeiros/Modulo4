@@ -12,7 +12,8 @@ Grandes telas
 TV:Acima de 1200px
 */
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px)
+{
     span#burguer{
         display: none;
     }
@@ -22,8 +23,7 @@ TV:Acima de 1200px
     }
 
     menu > ul > li {
-        display: inline-block;
-        
+        display: inline-block;       
     }
 
     main{
